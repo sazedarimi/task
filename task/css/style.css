@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap');
+body {
+    font-family: 'Merriweather', serif ;
+    font-size: 15px;
+    line-height: 1.5; }
+
+
+
+header{
+    overflow: hidden;
+    position: relative;
+    height: 130vh !important;
+    width: 100%;
+    background-position: center;
+    
+}
+header img{
+
+    /**position: absolute;**/
+}
+
+header .big {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+header .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 15px !important;
+
+}
+.navbar {
+    margin-top: 30px;
+}
+.header-content{
+    padding-top: 15px;
+    padding: 50px;
+    position: absolute;
+    max-width: 80%;
+    color: #ffffff;
+}
+.header-content h1{
+    font-weight: 700px;
+    font-size: 64.68pt;
+}
+.header-content h5{
+    font-size: 40px;
+}
+.header-content p{
+    font-size: 22px !important;
+}
+.client{
+    position: absolute;
+}
+.watch{
+    background-color: #f1efefa6;
+    padding: 100px;
+
+}
+.watch p{
+    opacity: 0.8;
+    font-size: 33.14pt;
+    font-style: italic;
+}
+.watch h2{
+    font-size: 50.02pt !important;
+}
+.watch a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #171717;
+    font-weight: 600;
+    opacity: 0.7;
+    list-style-type: none;
+}
+.watch ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.new li:last-child a {
+    border: 2px solid #ffffff;
+    background-color: #f42468;
+}
+.watch .navbar li:last-child .nav-link {
+    background-color: #f42267;
+    color: #fff !important;
+    border-radius: 30px;
+}
+.watch h5{
+    font-style: normal;
+    opacity: 0.7;
+    font-size: 14pt;
+    margin-top: 20px;
+    padding-bottom: 30px !important;
+}
+.btn-radius{
+    background: rgb(244,34,103);
+background: linear-gradient(180deg, rgba(244,34,103,1) 51%, rgba(255,89,144,0.5130427170868348) 92%);
+    box-shadow: 0 20px 40px #00000019;
+}
+
+h1{
+    font-family: Merriweather;
+    font-size: 64.68pt;
+}
+h5{
+    font-family: Merriweather;
+    font-style: italic;
+}
+p{
+    font-family: Myriad Pro;
+    font-size: 23pt;
+}
+
+.announcement{
+    background-color: #4b2d7f;
+    padding: 150px 0 100px;
+    color: #ffffff;
+}
+.announcement h1{
+    font-size: 50pt;
+    
+}
+.announcement h6{
+    font-size: 30pt;
+    padding-bottom: 30px;
+}
+.announcement p{
+    font-size: 15pt;
+    opacity: 0.7;
+}
+
+.banner{
+    padding-top: 85px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0 50px;
+    
+}
+.banner h3{
+    font-style: italic;
+    font-size: 30.34pt;
+}
+.banner h2{
+    font-size: 40.2pt;
+    padding-bottom: 25px;
+}
+.banner p{
+    font-size: 15pt;
+    opacity: 0.7;
+}
+.btn{
+background-color: #f42267;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #f42267;
+    border-radius: 20px;
+}
+.travel{
+    padding: 100px 0 50px;
+}
+.travel .bag{
+    padding-top: 200px;
+}
+.travel h4{
+    font-size: 30pt;
+    opacity: 0.8;
+    font-style: italic;
+}
+.travel h2{
+    font-size: 45pt;
+}
+.travel h6{
+    font-size: 20pt;
+    font-weight: 600;
+}
+.travel p{
+    font-size: 15pt;
+    opacity: 0.7;
+}
+.work{
+    padding: 100px 0 50px;
+    background-color: #f1f1f1;
+}
+.work h3{
+    font-size: 45pt;
+    font-weight: 600;
+}
+.work p{
+    font-size: 15pt;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.work .color .nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #171717;
+    font-weight: 600;
+    opacity: 0.7;
+    list-style-type: none;
+}
+.work .navbar li:last-child .nav-link {
+    background-color: #f42267;
+    color: #fff !important;
+    border-radius: 30px;
+}
+
+.gallery{
+    padding: 100px 0 50px;
+}
+.gallery img{
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.logo{
+    padding: 100px 0 50px;
+    background-color: #4b2d7f;
+}
+.logo img{
+    text-align: center;
+    padding: 20px;
+}
+
+.Testimonials{
+    background-image: url(../img/Clientbb.png);
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px !important;
+    color: #ffffff;
+}
+.Testimonials h4{
+    padding-top: 30px;
+    font-size: 25pt;
+    opacity: 0.8;
+    font-style: italic;
+}
+.Testimonials h2{
+    font-size: 40.2pt;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.Testimonials p{
+    font-size: 15pt;
+    text-align: left;
+}
+.quat img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.client-section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.help{
+    margin-top: -120px !important;
+    padding: 150px 0 100px;
+    background-color: #ee2164;
+    color: #ffffff;
+}
+.help .form-control {
+    background-color: #f16e99;
+    color: #ffffff !important;
+}
+.help h3{
+    font-size: 45pt;
+    font-weight: 600;
+}
+.help h6{
+    font-size: 25pt;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.help p{
+    font-size: 15pt;
+    opacity: 0.9;
+    padding-bottom: 15px;
+}
+.help .frm{
+    color: #ffffff !important;
+}
+.social-media{
+    background-color: #4b2d7f;
+    padding: 50px;
+}
+.social-media ul{
+    list-style: none;
+    font-size: 30px;
+}
+.social-media ul li{
+    list-style-type: none;
+ 
+}
+.social-media ul li a{
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+.footer{
+    background-color: #ffffff;
+    padding: 100px 0 50px;
+}
+.footer ul{
+    padding-left: 0px !important;
+}
+.footer ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #171717;
+  
+}
+.footer img{
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.footer h4{
+    color: #4b2d7f;
+    font-weight: 800;
+    font-size: 25px;
+}
+.copy-right{
+    background-color: #f6f6f6;
+    padding: 30px 0 20px;
+    color: #303030;
+    opacity: 0.8;
+}
+.copy-right p{
+    font-size: 25px;
+}
+.copy-right li a{
+    font-size: 18pt;
+    text-decoration: none;
+    padding: 20px;
+    color: #303030;
+    text-align: center !important;
+}
